@@ -1,6 +1,6 @@
 
 
-### An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing (Paper Artifact)
+### An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing (Artifact)
 
 
 
@@ -8,7 +8,7 @@ This is the artifact of the paper *An Empirical Study on the Distance Metric in 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13369424.svg)](https://doi.org/10.5281/zenodo.13369424)
 
-[https://github.com/slient2009/DistanceMeasurement](https://github.com/slient2009/DistanceMeasurement)
+[[Accepted Paper]](https://github.com/slient2009/DistanceMeasurement/blob/master/ISSRE24.pdf)
 
 ## 1. Getting Started
 
