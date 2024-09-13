@@ -274,7 +274,7 @@ Now we could compare the performance between different distance calculation meth
 
 By gathering all the TTE of all fuzzing process of different AFLGO-Variants, we could list the `Table.Ⅱ` and `Table.Ⅲ` in our paper:
 
-<img src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232055411.png" alt="image-20240823205034999" width="600px" />
+<img  align=center src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232055411.png" alt="image-20240823205034999" width="600px" />
 
 
 
@@ -343,13 +343,13 @@ fuzz_out_dir = '/mnt/data/wenake/aflgo-formal-experiments/cve-2016-4490-cxxfilt/
 
 The script will automatically read the first PoC among all crashes, analysis the information in `distance_log` file. Then, the lineage of PoC will be generated:
 
-<img src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408241904255.png" alt="image-20240823233845892" width="300px" />
+<img align=center  src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408241904255.png" alt="image-20240823233845892" width="300px" />
 
 Also, the `Lineage Length Distribution Histogram` is produced by running `./analysis/PoC_lineage_length_hist.py`.
 
 You can use the lineage length data to produce the histogram of your own experiments.
 
-<img src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232250125.png" alt="image-20240823225030080" width="300px" />
+<img  align=center src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232250125.png" alt="image-20240823225030080" width="300px" />
 
 ### 3.3 Mutation Assessment
 
@@ -386,10 +386,10 @@ If the $Decrease$ exhibits an extremely small negative value, it implies that th
 Conversely, a large positive value of $Decrease$ indicates that the descendant testcases have significantly greater distances compared to their parent seeds, which is an unfavorable outcome. 
 In the scenario where $Decrease$ is close to 0, it is interpreted as only a negligible distance difference between the descendant testcase and its parent seed.
 
-<img src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232333707.png" alt="image-20240823233302658" width="300px" />
+<img align=center src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408232333707.png" alt="image-20240823233302658" width="300px" />
 
 Furthermore, we have drawn the cactus plot of distance $Decrease$​ as figure above. 
 Although the distance of most testcases decreased compared to their parent seeds, the decrease proportion is negligible. 
 
-<img src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408241823617.png" alt="image-20240824182315575" width="300px" />
+<img align=center src="https://raw.githubusercontent.com/slient2009/PicGo/main/img/202408241823617.png" alt="image-20240824182315575" width="300px" />
 
