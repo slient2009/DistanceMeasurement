@@ -239,7 +239,9 @@ The patch code is determined by carefully analysis the patch commit on the codeb
 cve and patch links:
 
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4490
+
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=70498
+
 https://gcc.gnu.org/git/?p=gcc.git&a=commit;h=9e6edb946c0e9a2c530fbae3eeace148eca0de33
 
 #### Triage script
